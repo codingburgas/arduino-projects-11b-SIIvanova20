@@ -1,0 +1,28 @@
+/*<uniquifier>: Use a unique and descriptive class name */
+/*<weight>: Use a value from 100 to 900*/
+
+.urbanist-body {
+               font-family: "Urbanist", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: 100;
+               font-style: normal;
+           }
+.urbanist-body {
+               font-family: "Urbanist", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: 100;
+               font-style: normal;
+           }
+.urbanist-body {
+               font-family: "Urbanist", sans-serif;
+               font-optical-sizing: auto;
+               font-weight: 100;
+               font-style: normal;
+           }
+body {
+    font-family: "Urbanist", sans-serif;
+    display: block;
+    margin: 0;
+    background-color: #030202;
+    color: #F5F5F5;
+}
