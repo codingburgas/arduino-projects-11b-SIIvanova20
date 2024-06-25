@@ -19,5 +19,6 @@
 
 
 <script src="assets/script/navbar.js"></script>
+<script src="../../assets/script/navbar.js"></script>
 </body>
 </html>

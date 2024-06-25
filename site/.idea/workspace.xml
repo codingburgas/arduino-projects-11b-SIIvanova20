@@ -9,20 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/script/navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/videos/Background.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2324-sd-java-11b-introduction-to-web-development-ERKeserdzhieva20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pedrometer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="Add index and its design">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/styles/css/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/navbar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -220,10 +214,72 @@
       <workItem from="1718632647977" duration="409000" />
       <workItem from="1718633498738" duration="4155000" />
       <workItem from="1718692847939" duration="1363000" />
+      <workItem from="1718699037498" duration="4932000" />
+      <workItem from="1718709648330" duration="146000" />
+      <workItem from="1718733856593" duration="829000" />
+      <workItem from="1719297790140" duration="489000" />
     </task>
+    <task id="LOCAL-00001" summary="Create project">
+      <option name="closed" value="true" />
+      <created>1718699404855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718699404855</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add  title background video">
+      <option name="closed" value="true" />
+      <created>1718699558148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718699558148</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add  title">
+      <option name="closed" value="true" />
+      <created>1718699658158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718699658158</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add  navbar">
+      <option name="closed" value="true" />
+      <created>1718699707965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718699707965</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add  circle showing statistics">
+      <option name="closed" value="true" />
+      <created>1718699746634</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718699746634</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add index and its design">
+      <option name="closed" value="true" />
+      <created>1718699799483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718699799483</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create project" />
+    <MESSAGE value="Add  title background video" />
+    <MESSAGE value="Add  title" />
+    <MESSAGE value="Add  navbar" />
+    <MESSAGE value="Add  circle showing statistics" />
+    <MESSAGE value="Add index and its design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add index and its design" />
   </component>
 </project>
