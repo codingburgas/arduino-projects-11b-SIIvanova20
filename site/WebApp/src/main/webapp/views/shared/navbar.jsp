@@ -9,10 +9,12 @@
 <nav>
 
     <ul>
-        <li><a class="active" href="">Home</a></li>
+        <li><a class="active" href="index.jsp">Home</a></li>
         <li><a href="">Stats</a></li>
         <li><a href="">Contacts</a></li>
         <li><a href="" style="text-align: right">Profile</a></li>
+        <li><a href="register">Sign up</a><li>
+        <li><a href="login">Log in</a></li>
     </ul>
 
 </nav>

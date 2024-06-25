@@ -13,6 +13,7 @@
 <body>
 <jsp:include page="views/shared/title.jsp"/>
 <jsp:include page="views/shared/navbar.jsp"/>
+
 <div class="container">
   <div class="top-div" >
     <h1>Why use pedrometer?</h1>
@@ -35,7 +36,7 @@
     </div>
   </div>
 </div>
-</div>
+
 
 <div class="top-div">
   <h3 style="background-color: #c64d65" >Wow, you have walked the distance between the moon and the earth</h3>
