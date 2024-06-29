@@ -5,6 +5,7 @@ import DataAccessLayer.repositories.UserRepository;
 
 public class UserService {
 
+    private UserRepository userRepository = new UserRepository();
     private static UserService userServiceInstance = null;
     public static UserService getUserServiceInstance(){
         if(userServiceInstance == null){
@@ -26,4 +27,11 @@ public class UserService {
         user.setDeviceCode(deviceCode);
         userRepositoryInstance.addAccount(user);
     }
+
+    public boolean GetUserByUsername(String username, String password) {
+        User user = new User();
+        user = userRepositoryInstance.getUserByUsername(username);
+        return user.getUsername().equals(username) && user.getPassword().equals(password);
+    }
+
 }

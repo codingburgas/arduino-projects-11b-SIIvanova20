@@ -13,8 +13,19 @@
         <li><a href="">Stats</a></li>
         <li><a href="">Contacts</a></li>
         <li><a href="" style="text-align: right">Profile</a></li>
-        <li><a href="register">Sign up</a><li>
+        <%
+            String username = (String) session.getAttribute("username");
+            if (username != null) {
+        %>
+        <li><a href="logout">Logout</a></li>
+        <%
+        } else {
+        %>
+        <li><a href="register">Sign up</a></li>
         <li><a href="login">Log in</a></li>
+        <%
+            }
+        %>
     </ul>
 
 </nav>

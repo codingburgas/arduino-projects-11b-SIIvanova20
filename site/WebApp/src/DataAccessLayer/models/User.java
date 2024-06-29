@@ -25,11 +25,11 @@ public class User {
         DailyGoal = dailyGoal;
     }
 
-    public boolean isActive() {
+    public boolean getIsActive() {
         return IsActive;
     }
 
-    public void setActive(boolean active) {
+    public void setIsActive(boolean active) {
         IsActive = active;
     }
 
