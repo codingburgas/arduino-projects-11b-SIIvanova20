@@ -34,4 +34,10 @@ public class UserService {
         return user.getUsername().equals(username) && user.getPassword().equals(password);
     }
 
+    public boolean CheckUserExist(String username, String email) {
+        User user = new User();
+        user = userRepositoryInstance.getUserByUsername(username);
+        return user.getUsername().equals(username) || user.getEmail().equals(email);
+    }
+
 }

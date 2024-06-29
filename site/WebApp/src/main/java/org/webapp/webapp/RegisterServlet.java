@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebServlet("/register")
@@ -24,9 +25,19 @@ public class RegisterServlet extends HttpServlet {
         String password = request.getParameter("password");
         String deviceCode = request.getParameter("deviceCode");
 
-        userServiceInstance.CreateUser(username, email, password, deviceCode);
+        boolean userExist = userServiceInstance.CheckUserExist(username, email);
 
-        response.sendRedirect(request.getContextPath() + "/index.jsp");
+        if(userExist){
+            request.setAttribute("errorMessage", "User already exist");
+            request.getRequestDispatcher("views/shared/register.jsp").forward(request, response);
+        }else{
+            userServiceInstance.CreateUser(username, email, password, deviceCode);
+
+            HttpSession session = request.getSession();
+            session.setAttribute("username", username);
+            response.sendRedirect(request.getContextPath() + "/index.jsp");
+        }
+
     }
 
 }

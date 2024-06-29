@@ -28,9 +28,13 @@
     <input type="password" id="password" name="password" required><br><br>
 
     <label for="deviceCode">DeviceCode:</label><br>
-    <input type="number" id="deviceCode" name="deviceCode" required><br><br>
+    <input type="text" id="deviceCode" name="deviceCode" required><br><br>
 
     <input type="submit" value="Register">
+
+    <div class="error">
+        <%= request.getAttribute("errorMessage") != null ? request.getAttribute("errorMessage") : "" %>
+    </div>
 </form>
 </body>
 </html>
