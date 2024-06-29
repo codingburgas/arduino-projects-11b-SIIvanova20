@@ -69,5 +69,7 @@
   </div>
   </div>
 
+<jsp:include page="views/shared/footer.jsp"/>
+
 </body>
 </html>
