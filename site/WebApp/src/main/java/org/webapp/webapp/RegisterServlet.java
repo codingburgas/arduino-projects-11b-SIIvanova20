@@ -25,9 +25,10 @@ public class RegisterServlet extends HttpServlet {
         String password = request.getParameter("password");
         String deviceCode = request.getParameter("deviceCode");
 
-        boolean userExist = userServiceInstance.CheckUserExist(username, email);
+        boolean userExistByUsername = userServiceInstance.CheckUserExistByUsername(username);
+        boolean userExistByEmail = userServiceInstance.CheckUserExistByEmail(email);
 
-        if(userExist){
+        if(!userExistByUsername || !userExistByEmail){
             request.setAttribute("errorMessage", "User already exist");
             request.getRequestDispatcher("views/shared/register.jsp").forward(request, response);
         }else{

@@ -34,10 +34,22 @@ public class UserService {
         return user.getUsername().equals(username) && user.getPassword().equals(password);
     }
 
-    public boolean CheckUserExist(String username, String email) {
+    public boolean CheckUserExistByUsername(String username) {
         User user = new User();
         user = userRepositoryInstance.getUserByUsername(username);
-        return user.getUsername().equals(username) || user.getEmail().equals(email);
+        if(user.getUsername() == null){
+            return true;
+        }
+        return false;
+    }
+
+    public boolean CheckUserExistByEmail(String email) {
+        User user = new User();
+        user = userRepositoryInstance.getUserByEmail(email);
+        if(user.getUsername() == null){
+            return true;
+        }
+        return false;
     }
 
 }

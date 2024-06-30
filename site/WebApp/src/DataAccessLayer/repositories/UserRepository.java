@@ -71,4 +71,27 @@ public class UserRepository {
         return user;
     }
 
+    public User getUserByEmail(String email){
+
+
+        String query = String.format("SELECT * FROM Users WHERE email = '%s'", email);
+
+        Connection connectionInstance;
+        Statement statement;
+        ResultSet set;
+
+        try {
+            connectionInstance = DBConnection.getInstance();
+            statement = connectionInstance.createStatement();
+            set = statement.executeQuery(query);
+
+        } catch (SQLException e){
+            throw new RuntimeException(e);
+        }
+
+        User user = new User();
+        user = mapToUser(set);
+        return user;
+    }
+
 }
