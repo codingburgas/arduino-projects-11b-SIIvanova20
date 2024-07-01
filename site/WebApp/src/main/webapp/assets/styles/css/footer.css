@@ -45,14 +45,14 @@ footer {
 .contact-form button {
     padding: 10px 20px;
     border: none;
-    background-color: #c54d65;
+    background-color: #8a2b3c;
     color: white;
     cursor: pointer;
     border-radius: 4px;
 }
 
 .contact-form button:hover {
-    background-color: #c54d65;
+    background-color: #8a2b3c;
 }
 
 

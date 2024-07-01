@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Update_at_30_6_2024_г__17_05_[Changes]" date="1719756346799" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_6_2024_г__17_05_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 30.6.2024 г. 17:05 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="WebApp/target/WebApp-1.0-SNAPSHOT.war" />
+    <option name="AFTER_PATH" value="WebApp/target/WebApp-1.0-SNAPSHOT.war" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_6_2024_г__17_05_[Changes]/WebApp-1.0-SNAPSHOT.war" />
+  </binary>
+</changelist>

@@ -43,7 +43,7 @@
     width: 160px;
     height: 160px;
     text-align: center;
-    color: #c64d65;
+    color: #8a2b3c;
     line-height: 160px;
     font-size: 25px;
     font-family: Helvetica, Arial, Geneva, sans-serif;
@@ -75,7 +75,7 @@
     transform: rotate(0deg);
     width: 120px;
     height: 120px;
-    border: 20px solid #c64d65;
+    border: 20px solid #8a2b3c;
     background: transparent;
     border-radius: 100%;
     transition: width 0.2s ease-out, height 0.2s ease-out, border-width 0.2s ease-out;

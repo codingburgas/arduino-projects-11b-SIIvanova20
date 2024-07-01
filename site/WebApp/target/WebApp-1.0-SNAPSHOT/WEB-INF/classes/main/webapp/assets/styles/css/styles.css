@@ -82,10 +82,16 @@
     width: 100%;
     text-align: center;
     padding: 0;
-    /*background-color: #f0f0f0;*/
     margin-bottom: 20px;
 }
 
+.milestone-div {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+    background-color: #8a2b3c;
+}
 .bottom-divs {
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +109,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #c64d65;
+    background-color: #8a2b3c;
 }
 
 .bottom-div img {
@@ -136,4 +142,10 @@ body {
     margin: 0;
     background-color: #030202;
     color: #F5F5F5;
+}
+.div-for-hidden-statistics {
+display: flex;
+justify-content: center;
+align-items: center;
+
 }

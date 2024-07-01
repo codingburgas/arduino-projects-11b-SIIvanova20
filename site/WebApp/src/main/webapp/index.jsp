@@ -38,8 +38,8 @@
 </div>
 
 
-<div class="top-div">
-  <h3 style="background-color: #c64d65" >Wow, you have walked the distance between the moon and the earth</h3>
+<div class="milestone-div">
+  <h3>Wow, you have walked the distance between the moon and the earth</h3>
 </div>
 
 <div class="outer-container">
@@ -66,10 +66,34 @@
         </div>
       </div>
     </div>
+    <jsp:include page="views/shared/profile.jsp"/>
   </div>
+
+  <div class="div-for-hidden-statistics">
+    <jsp:include page="views/shared/hidden-statisc.jsp"/>
+  </div>
+
   </div>
 
 <jsp:include page="views/shared/footer.jsp"/>
 
+<script src="assets/script/navbar.js"></script>
+<script src="assets/script/hide-statistic.js"></script>
+<script>document.addEventListener("DOMContentLoaded", function() {
+  if (isUserLoggedIn()) {
+    document.getElementById("div-for-hidden-statistics").style.display = "hidden";
+    document.getElementById("main-container").style.display = "flex";
+    document.getElementById("milestone-div").style.display = "flex";
+  }
+  else {
+    document.getElementById("div-for-hidden-statistics").style.display = "flex";
+    document.getElementById("main-container").style.display = "hidden";
+    document.getElementById("milestone-div").style.display = "hidden";
+  }
+});
+
+function isUserLoggedIn() {
+  return true;
+}</script>
 </body>
 </html>

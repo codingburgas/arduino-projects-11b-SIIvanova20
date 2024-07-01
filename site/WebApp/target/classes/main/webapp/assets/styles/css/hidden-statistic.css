@@ -1,0 +1,28 @@
+.container-when-statistics-hidden {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container-when-statistics-hidden img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+.container-when-statistics-hidden p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8a2b3c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login-button:hover {
+    background-color: #57171f;
+}
