@@ -36,8 +36,10 @@
     </div>
   </div>
 </div>
-
-
+<%
+  String username = (String) session.getAttribute("username");
+  if (username != null) {
+%>
 <div class="milestone-div">
   <h3>Wow, you have walked the distance between the moon and the earth</h3>
 </div>
@@ -66,14 +68,19 @@
         </div>
       </div>
     </div>
-    <jsp:include page="views/shared/profile.jsp"/>
   </div>
-
-  <div class="div-for-hidden-statistics">
-    <jsp:include page="views/shared/hidden-statisc.jsp"/>
-  </div>
-
-  </div>
+</div>
+<%
+} else {
+%>
+<div class="outer-container">
+<div class="div-for-hidden-statistics">
+  <jsp:include page="views/shared/hidden-statisc.jsp"/>
+</div>
+</div>
+<%
+  }
+%>
 
 <jsp:include page="views/shared/footer.jsp"/>
 

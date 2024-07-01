@@ -7,6 +7,7 @@
     <title>Login</title>
 </head>
 <body>
+<jsp:include page="navbar.jsp"/>
 <video autoplay muted loop id="myVideo">
     <source src="../../assets/videos/Background.mp4" type="video/mp4">
 </video>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-233.13135.103">
+    <data-source name="PedrometerDB@pedrometer.database.windows.net" uuid="b0e7ce24-25b7-41e2-93b8-001e479b7472">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="AZURE" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
