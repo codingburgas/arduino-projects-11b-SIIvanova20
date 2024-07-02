@@ -38,7 +38,7 @@
 </div>
 <%
   String username = (String) session.getAttribute("username");
-  if (username == null) {
+  if (username != null) {
 %>
 <div class="milestone-div">
   <h3>Wow, you have walked the distance between the moon and the earth</h3>

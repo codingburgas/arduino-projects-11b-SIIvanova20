@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/styles/css/register.css">
-    <link rel="stylesheet" href="../../assets/styles/css/register.css"><title>Login</title>
+    <link rel="stylesheet" href="assets/styles/css/signup.css">
+    <link rel="stylesheet" href="../../assets/styles/css/signup.css"><title>Login</title>
 </head>
 <body>
 <video autoplay muted loop>
@@ -22,7 +22,11 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Your Password" required>
             </div>
+            <div class="signup-link">
+                <p>or if you don't have a profile, <a href="register">sign up now</a></p>
+            </div>
             <button type="button" onclick="location.href='index.jsp'">Go back</button>
+<%--            <button type="button" onclick="location.href='signup.jsp'">Sign up</button>--%>
             <input type="submit" value="Log in" class="btn-login">
             <div class="error">
                 <%= request.getAttribute("errorMessage") != null ? request.getAttribute("errorMessage") : "" %>

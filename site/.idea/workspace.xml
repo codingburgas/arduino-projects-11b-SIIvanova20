@@ -9,23 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="Add div, for when user is not logged in and profile div">
+    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="Add css to the login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/script/hide-statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/script/hide-statistic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/script/hide-statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/script/hide-statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/script/hide-statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/script/hide-statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/script/hide-statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/script/hide-statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +247,7 @@
       <workItem from="1719844630159" duration="3667000" />
       <workItem from="1719917235824" duration="736000" />
       <workItem from="1719918184900" duration="1552000" />
-      <workItem from="1719930312951" duration="4972000" />
+      <workItem from="1719930312951" duration="7882000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <option name="closed" value="true" />
@@ -315,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719845554789</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add css to the login">
+      <option name="closed" value="true" />
+      <created>1719936007700</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719936007700</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +345,7 @@
     <MESSAGE value="Add basic structure of the site" />
     <MESSAGE value="Add visuals" />
     <MESSAGE value="Add div, for when user is not logged in and profile div" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add div, for when user is not logged in and profile div" />
+    <MESSAGE value="Add css to the login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add css to the login" />
   </component>
 </project>
