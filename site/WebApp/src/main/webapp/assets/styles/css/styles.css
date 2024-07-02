@@ -72,6 +72,8 @@
 
 .nested-div img {
     margin-right: 10px;
+    max-width: 20px;
+    max-height: 20px
 }
 
 .nested-div span {

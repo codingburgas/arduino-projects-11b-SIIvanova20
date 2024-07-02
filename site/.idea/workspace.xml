@@ -9,29 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="Add css to the login">
+    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="Work on home section">
+      <change afterPath="$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/BusinessLayer/DailyStatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/BusinessLayer/DailyStatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/BusinessLayer/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/BusinessLayer/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/models/DailyStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/models/DailyStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/views/shared/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/views/shared/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/BusinessLayer/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/BusinessLayer/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/views/shared/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,7 @@
         <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,23 +64,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 9.0.89.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 9.0.89.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "azure"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Desktop\classwork\2324-sd-java-11b-introduction-to-web-development-ERKeserdzhieva20\WebApp\src\main\webapp\assets\videos" />
@@ -247,7 +247,9 @@
       <workItem from="1719844630159" duration="3667000" />
       <workItem from="1719917235824" duration="736000" />
       <workItem from="1719918184900" duration="1552000" />
-      <workItem from="1719930312951" duration="7882000" />
+      <workItem from="1719930312951" duration="14400000" />
+      <workItem from="1719948743112" duration="4714000" />
+      <workItem from="1719953653331" duration="7275000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <option name="closed" value="true" />
@@ -329,7 +331,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719936007700</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add css to the signup">
+      <option name="closed" value="true" />
+      <created>1719938920621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719938920621</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create DailyStats.java, DailyStatService.java and DailyStatsRepository.java">
+      <option name="closed" value="true" />
+      <created>1719943477141</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719943477141</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Work on home section">
+      <option name="closed" value="true" />
+      <created>1719951879933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719951879933</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +372,45 @@
     <MESSAGE value="Add visuals" />
     <MESSAGE value="Add div, for when user is not logged in and profile div" />
     <MESSAGE value="Add css to the login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add css to the login" />
+    <MESSAGE value="Add css to the signup" />
+    <MESSAGE value="Create DailyStats.java, DailyStatService.java and DailyStatsRepository.java" />
+    <MESSAGE value="Work on home section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work on home section" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

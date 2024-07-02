@@ -59,17 +59,28 @@
         <p>Statistics</p>
         <div class="nested-divs">
           <div class="nested-div">
-            <img src="https://via.placeholder.com/24" alt="Icon">
-            <span>Text 1</span>
+            <img src="assets/pictures/feet.png" alt="Icon">
+            <span id = "steps">Steps: ${steps}</span>
           </div>
           <div class="nested-div">
-            <img src="https://via.placeholder.com/24" alt="Icon">
-            <span>Text 2</span>
+            <img src="assets/pictures/fire.png" alt="Icon">
+            <span id = "burnedCalories">Burned calories: ${burnedCalories}</span>
           </div>
           <div class="nested-div">
-            <img src="https://via.placeholder.com/24" alt="Icon">
-            <span>Text 3</span>
+            <img src="assets/pictures/pin.png" alt="Icon">
+            <span id = "distance">Distance: ${distance}</span>
           </div>
+          <div class="nested-div">
+            <img src="assets/pictures/calender.png" alt="Icon">
+            <span id = "showDate">Date: ${date}</span>
+          </div>
+          <form action="statistics" method="post">
+            <input type="date" id="date" name="date">
+          <div class="nested-div">
+            <input type="submit" value="select" class="btn-login">
+
+            </div>
+          </form>
         </div>
       </div>
     </div>

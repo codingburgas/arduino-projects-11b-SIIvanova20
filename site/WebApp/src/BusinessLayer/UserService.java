@@ -52,4 +52,10 @@ public class UserService {
         return false;
     }
 
+    public int GetUserIdByUsername(String username) {
+        User user = new User();
+        user = userRepositoryInstance.getUserByUsername(username);
+        return user.getId();
+    }
+
 }

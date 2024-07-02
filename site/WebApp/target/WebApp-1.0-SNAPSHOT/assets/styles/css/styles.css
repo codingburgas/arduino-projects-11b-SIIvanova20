@@ -72,6 +72,8 @@
 
 .nested-div img {
     margin-right: 10px;
+    max-width: 20px;
+    max-height: 20px
 }
 
 .nested-div span {
@@ -109,6 +111,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 10%;
     background-color: #8a2b3c;
 }
 
@@ -148,4 +153,20 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6f1f2a;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ input[type="submit"]:hover {
+    background-color: #57171f;
 }

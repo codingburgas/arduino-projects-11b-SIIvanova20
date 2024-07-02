@@ -1,7 +1,10 @@
 package BusinessLayer;
 
+import DataAccessLayer.models.DailyStats;
 import DataAccessLayer.repositories.DailyStatsRepository;
 import DataAccessLayer.repositories.UserRepository;
+
+import java.sql.Date;
 
 public class DailyStatService {
     private DailyStatsRepository dailyStatsRepository = new DailyStatsRepository();
@@ -15,5 +18,10 @@ public class DailyStatService {
 
     private DailyStatService(){
 
+    }
+
+    public DailyStats getDailyStats(int UserId, Date date){
+        DailyStats dailyStats = DailyStatsRepository.getDailyStatsByUserIdAndDate(UserId, date);
+        return dailyStats;
     }
 }

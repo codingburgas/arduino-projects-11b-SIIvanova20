@@ -4,21 +4,18 @@ import DataAccessLayer.models.DailyStats;
 import DataAccessLayer.models.User;
 import utils.DBConnection;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class DailyStatsRepository {
 
 
-    public DailyStats mapToDailyStats(ResultSet set){
+    public static DailyStats mapToDailyStats(ResultSet set){
         DailyStats dailyStats = new DailyStats();
 
         try{
             while(set.next()) {
                 dailyStats.setId(set.getInt("Id"));
-                dailyStats.setDate(set.getString("Date"));
+                dailyStats.setDate(set.getDate("Date"));
                 dailyStats.setSteps(set.getInt("Steps"));
                 dailyStats.setBurnedCalories(set.getDouble("BurnedCalories"));
                 dailyStats.setDistance(set.getInt("Distance"));
@@ -31,7 +28,7 @@ public class DailyStatsRepository {
         return dailyStats;
     }
 
-    public DailyStats getDailyStatsByUserIdAndDate(int UserId, String Date){
+    public static DailyStats getDailyStatsByUserIdAndDate(int UserId, Date Date){
 
 
         String query = String.format("SELECT * FROM DailyStats WHERE UserId = '%s' AND [Date] = '%s'", UserId, Date);

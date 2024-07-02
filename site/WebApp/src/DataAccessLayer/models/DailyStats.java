@@ -1,8 +1,10 @@
 package DataAccessLayer.models;
 
+import java.sql.Date;
+
 public class DailyStats {
     private int Id;
-    private String Date;
+    private Date Date;
     private int Steps;
     private double BurnedCalories;
     private int Distance;
@@ -16,11 +18,11 @@ public class DailyStats {
         Id = id;
     }
 
-    public String getDate() {
+    public Date getDate() {
         return Date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         Date = date;
     }
 
