@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function isUserLoggedIn() {
-    return true;
+    return false;
 }

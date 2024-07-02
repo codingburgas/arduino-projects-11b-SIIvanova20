@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../assets/styles/css/profile.css">
 </head>
 <body>
+<jsp:include page="navbar.jsp"/>
 <div class="profile-card">
     <div class="profile-image"></div>
     <div class="profile-info">

@@ -38,7 +38,7 @@
 </div>
 <%
   String username = (String) session.getAttribute("username");
-  if (username != null) {
+  if (username == null) {
 %>
 <div class="milestone-div">
   <h3>Wow, you have walked the distance between the moon and the earth</h3>
@@ -86,21 +86,5 @@
 
 <script src="assets/script/navbar.js"></script>
 <script src="assets/script/hide-statistic.js"></script>
-<script>document.addEventListener("DOMContentLoaded", function() {
-  if (isUserLoggedIn()) {
-    document.getElementById("div-for-hidden-statistics").style.display = "hidden";
-    document.getElementById("main-container").style.display = "flex";
-    document.getElementById("milestone-div").style.display = "flex";
-  }
-  else {
-    document.getElementById("div-for-hidden-statistics").style.display = "flex";
-    document.getElementById("main-container").style.display = "hidden";
-    document.getElementById("milestone-div").style.display = "hidden";
-  }
-});
-
-function isUserLoggedIn() {
-  return true;
-}</script>
 </body>
 </html>
