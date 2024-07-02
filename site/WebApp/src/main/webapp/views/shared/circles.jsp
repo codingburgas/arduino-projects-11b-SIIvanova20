@@ -16,8 +16,8 @@
 <body>
 <div class="circle-container">
 
-    <div class="circle percentage-10">
-        <span>10%</span>
+    <div id = "circleId" class="circle percentage-${percentage}">
+        <span id="percentage">${percentage} %</span>
         <div class="percentage-bar"></div>
     </div>
 

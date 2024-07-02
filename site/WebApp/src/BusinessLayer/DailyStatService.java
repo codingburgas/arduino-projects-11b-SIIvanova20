@@ -24,4 +24,10 @@ public class DailyStatService {
         DailyStats dailyStats = DailyStatsRepository.getDailyStatsByUserIdAndDate(UserId, date);
         return dailyStats;
     }
+
+    public int getPercentageOfGoal(int UserId, Date date){
+        DailyStats dailyStats = DailyStatsRepository.getDailyStatsByUserIdAndDate(UserId, date);
+        int result = dailyStats.getSteps()/100;
+        return result;
+    }
 }

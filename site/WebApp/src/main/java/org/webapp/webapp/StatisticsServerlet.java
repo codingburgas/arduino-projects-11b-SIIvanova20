@@ -26,8 +26,8 @@ public class StatisticsServerlet extends HttpServlet {
         request.setAttribute("steps", session.getAttribute("steps"));
         request.setAttribute("burnedCalories", session.getAttribute("burnedCalories"));
         request.setAttribute("distance", session.getAttribute("distance"));
+        request.setAttribute("percentage", session.getAttribute("percentage"));
         request.getRequestDispatcher("index.jsp").forward(request, response);
-        ;
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -49,6 +49,7 @@ public class StatisticsServerlet extends HttpServlet {
         session.setAttribute("burnedCalories", dailyStats.getBurnedCalories());
         session.setAttribute("distance", dailyStats.getDistance());
         session.setAttribute("date", dailyStats.getDate());
+        session.setAttribute("percentage", dailyStatServiceInstance.getPercentageOfGoal(userId, sqlDate));
         doGet(request, response);
     }
 }

@@ -9,23 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="Work on home section">
-      <change afterPath="$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java" afterDir="false" />
+    <list default="true" id="9995aa98-db19-4e96-9cef-6ce74b24e70b" name="Changes" comment="Make it show statistics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/src/BusinessLayer/DailyStatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/BusinessLayer/DailyStatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/BusinessLayer/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/BusinessLayer/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/models/DailyStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/models/DailyStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/assets/styles/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/circles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/src/main/webapp/views/shared/circles.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/BusinessLayer/DailyStatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/BusinessLayer/DailyStatService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/BusinessLayer/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/BusinessLayer/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/assets/styles/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/org/webapp/webapp/StatisticsServerlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/WEB-INF/classes/org/webapp/webapp/StatisticsServerlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/assets/styles/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/WebApp-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/BusinessLayer/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/BusinessLayer/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/BusinessLayer/DailyStatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/BusinessLayer/DailyStatService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/assets/styles/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/target/classes/org/webapp/webapp/StatisticsServerlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/target/classes/org/webapp/webapp/StatisticsServerlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +246,7 @@
       <workItem from="1719918184900" duration="1552000" />
       <workItem from="1719930312951" duration="14400000" />
       <workItem from="1719948743112" duration="4714000" />
-      <workItem from="1719953653331" duration="7275000" />
+      <workItem from="1719953653331" duration="10072000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <option name="closed" value="true" />
@@ -355,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719951879933</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Make it show statistics">
+      <option name="closed" value="true" />
+      <created>1719961340109</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719961340109</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,42 +380,7 @@
     <MESSAGE value="Add css to the signup" />
     <MESSAGE value="Create DailyStats.java, DailyStatService.java and DailyStatsRepository.java" />
     <MESSAGE value="Work on home section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work on home section" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WebApp/src/DataAccessLayer/repositories/DailyStatsRepository.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WebApp/src/main/java/org/webapp/webapp/StatisticsServerlet.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Make it show statistics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make it show statistics" />
   </component>
 </project>
