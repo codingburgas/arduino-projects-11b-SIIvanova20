@@ -20,19 +20,24 @@
   </div>
   <div class="bottom-divs">
     <div class="bottom-div">
-      <img src="https://via.placeholder.com/150" alt="Placeholder Image">
-      <h2>Heading 1</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi est, facilisis ac tellus vitae, egestas hendrerit magna. Sed euismod turpis nec orci consequat, id pharetra risus bibendum.</p>
+      <img src="assets/pictures/movement.png" alt="Placeholder Image">
+      <h2>Increased Physical Activity</h2>
+      <p>Pedometers provide real-time feedback and goals like 10,000 steps, encouraging more activity and tracking progress to boost motivation.
+      </p>
     </div>
     <div class="bottom-div">
-      <img src="https://via.placeholder.com/150" alt="Placeholder Image">
-      <h2>Heading 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi est, facilisis ac tellus vitae, egestas hendrerit magna. Sed euismod turpis nec orci consequat, id pharetra risus bibendum.</p>
+      <img src="assets/pictures/health.png" alt="Placeholder Image">
+      <h2>Health Benefits</h2>
+      <p>
+        Walking with a pedometer improves cardiovascular health and aids weight management by lowering blood pressure and improving cholesterol.
+      </p>
     </div>
     <div class="bottom-div">
-      <img src="https://via.placeholder.com/150" alt="Placeholder Image">
-      <h2>Heading 3</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi est, facilisis ac tellus vitae, egestas hendrerit magna. Sed euismod turpis nec orci consequat, id pharetra risus bibendum.</p>
+      <img src="assets/pictures/convenience.png" alt="Placeholder Image">
+      <h2>Convenience</h2>
+      <p>
+        Regular walking with a pedometer improves cardiovascular health, reduces heart disease risk, and aids weight management with a balanced diet.
+      </p>
     </div>
   </div>
 </div>
@@ -51,7 +56,7 @@
         <jsp:include page="views/shared/circles.jsp"/>
       </div>
       <div class="second-div">
-        <p>Second Div</p>
+        <p>Statistics</p>
         <div class="nested-divs">
           <div class="nested-div">
             <img src="https://via.placeholder.com/24" alt="Icon">
