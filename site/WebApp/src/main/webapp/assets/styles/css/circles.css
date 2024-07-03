@@ -19,7 +19,7 @@
     transform: rotate(0deg);
     width: 120px;
     height: 120px;
-    border: 20px solid #3a191f;
+    border: 20px solid #8a2b3c;
     background: transparent;
     border-radius: 100%;
     transition: width 0.2s ease-out, height 0.2s ease-out, border-width 0.2s ease-out;
@@ -48,6 +48,7 @@
     font-size: 25px;
     font-family: Helvetica, Arial, Geneva, sans-serif;
     transition: font-size 0.2s ease-out;
+    z-index:1000000000000000000000000000;
 }
 .circle:before {
     position: absolute;
@@ -55,10 +56,11 @@
     background-color: transparent;
     width: 120px;
     height: 120px;
-    border: 20px solid #3a191f;
+    border: 20px solid rgba(58, 25, 31);
     background: transparent;
     border-radius: 100%;
     transition: width 0.2s ease-out, height 0.2s ease-out, border-width 0.2s ease-out;
+    z-index:0;
 }
 .circle .percentage-bar {
     width: 160px;
@@ -79,6 +81,7 @@
     background: transparent;
     border-radius: 100%;
     transition: width 0.2s ease-out, height 0.2s ease-out, border-width 0.2s ease-out;
+    z-index:100000000000000000000000000;
 }
 .circle:hover:before {
     width: 140px;
@@ -92,6 +95,7 @@
     width: 140px;
     height: 140px;
     border-width: 10px;
+    z-index:10000000000000000000000000000;
 }
 .circle.percentage-1 .percentage-bar:before {
     transform: rotate(3.6deg);
